@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=header&text=Wagner%20Rodrigues%20Silva&fontSize=32&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20%40%20UFMS%20%C2%B7%20Frontend%20%26%20QA&descAlignY=60&descColor=8b949e" />
+# Wagner Rodrigues Silva
+
+**Software Engineering @ UFMS · Frontend & QA · Campo Grande, MS**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-wagner--rodriguesdev-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/wagner-rodriguesdev)
-[![Gmail](https://img.shields.io/badge/Gmail-engsoftwagner242@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:engsoftwagner242@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-engsoftwagner242-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:engsoftwagner242@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-WagnerRodriguesSilva-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WagnerRodriguesSilva)
-![Location](https://img.shields.io/badge/Campo%20Grande-MS%2C%20Brasil-green?style=flat-square&logo=googlemaps&logoColor=white)
+![Location](https://img.shields.io/badge/Campo%20Grande-MS%2C%20Brasil-2ea44f?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Aberto%20a%20oportunidades-brightgreen?style=flat-square)
 
 </div>
@@ -67,21 +69,24 @@ Busco uma vaga de estágio onde possa contribuir com código de verdade e cresce
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=WagnerRodriguesSilva&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerRodriguesSilva&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=WagnerRodriguesSilva&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+<a href="https://github.com/WagnerRodriguesSilva">
+  <img height="180em" src="./assets/stats.svg" alt="Wagner's GitHub Stats" />
+</a>
+<a href="https://github.com/WagnerRodriguesSilva">
+  <img height="180em" src="./assets/top-langs.svg" alt="Top Languages" />
+</a>
 
 </div>
 
 <div align="center">
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=WagnerRodriguesSilva&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8)
+<img src="./assets/streak.svg" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
+
+<img src="./assets/trophy.svg" alt="GitHub Trophy" />
 
 </div>
 
@@ -100,8 +105,6 @@ Busco uma vaga de estágio onde possa contribuir com código de verdade e cresce
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d1117&height=80&section=footer" />
 
 *Aberto a estágios em desenvolvimento de software — frontend, QA ou full-stack.*
 
