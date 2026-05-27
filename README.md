@@ -84,12 +84,6 @@ Busco uma vaga de estágio onde possa contribuir com código de verdade e cresce
 
 </div>
 
-<div align="center">
-
-<img src="./assets/trophy.svg" alt="GitHub Trophy" />
-
-</div>
-
 ---
 
 ## Organizações & Atuação
