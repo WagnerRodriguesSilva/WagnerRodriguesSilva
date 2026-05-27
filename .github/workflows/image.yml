@@ -23,10 +23,10 @@ jobs:
             curl -s --retry 3 --retry-delay 5 \
               -H "User-Agent: Mozilla/5.0" \
               -o assets/stats.svg \
-              "https://github-readme-stats.vercel.app/api?username=WagnerRodriguesSilva&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&cache_seconds=21600"
+              "https://github-readme-stats-salesp07.vercel.app/api?username=WagnerRodriguesSilva&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e"
             grep -q '<svg' assets/stats.svg && echo "Stats OK" && break
             echo "Tentativa $i falhou, aguardando..."
-            sleep 10
+            sleep 15
           done
 
       - name: Baixar Top Languages
@@ -35,10 +35,10 @@ jobs:
             curl -s --retry 3 --retry-delay 5 \
               -H "User-Agent: Mozilla/5.0" \
               -o assets/top-langs.svg \
-              "https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerRodriguesSilva&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6&cache_seconds=21600"
+              "https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=WagnerRodriguesSilva&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"
             grep -q '<svg' assets/top-langs.svg && echo "Top Langs OK" && break
             echo "Tentativa $i falhou, aguardando..."
-            sleep 10
+            sleep 15
           done
 
       - name: Baixar Streak
@@ -50,25 +50,13 @@ jobs:
               "https://streak-stats.demolab.com/?user=WagnerRodriguesSilva&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff"
             grep -q '<svg' assets/streak.svg && echo "Streak OK" && break
             echo "Tentativa $i falhou, aguardando..."
-            sleep 10
-          done
-
-      - name: Baixar Trophy
-        run: |
-          for i in 1 2 3; do
-            curl -s --retry 3 --retry-delay 5 \
-              -H "User-Agent: Mozilla/5.0" \
-              -o assets/trophy.svg \
-              "https://github-profile-trophy.vercel.app/?username=WagnerRodriguesSilva&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8"
-            grep -q '<svg' assets/trophy.svg && echo "Trophy OK" && break
-            echo "Tentativa $i falhou, aguardando..."
-            sleep 10
+            sleep 15
           done
 
       - name: Verificar arquivos baixados
         run: |
           echo "=== Verificando SVGs ==="
-          for f in assets/stats.svg assets/top-langs.svg assets/streak.svg assets/trophy.svg; do
+          for f in assets/stats.svg assets/top-langs.svg assets/streak.svg; do
             if grep -q '<svg' "$f"; then
               echo "✓ $f OK ($(wc -c < $f) bytes)"
             else
