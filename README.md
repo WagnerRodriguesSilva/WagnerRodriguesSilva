@@ -67,22 +67,11 @@ Busco uma vaga de estágio onde possa contribuir com código de verdade e cresce
 
 ## Métricas do GitHub
 
-<div align="center">
+| ![Wagner Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=WagnerRodriguesSilva&theme=tokyonight) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WagnerRodriguesSilva&theme=tokyonight) | ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WagnerRodriguesSilva&theme=tokyonight) |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
 
-<a href="https://github.com/WagnerRodriguesSilva">
-  <img height="180em" src="./assets/stats.svg" alt="Wagner's GitHub Stats" />
-</a>
-<a href="https://github.com/WagnerRodriguesSilva">
-  <img height="180em" src="./assets/top-langs.svg" alt="Top Languages" />
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="./assets/streak.svg" alt="GitHub Streak" />
-
-</div>
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WagnerRodriguesSilva&theme=tokyonight) | ![](https://streak-stats.demolab.com?user=WagnerRodriguesSilva&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3) |
+| :--------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
 
 ---
 
